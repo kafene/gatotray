@@ -11,7 +11,7 @@ temperature, frequency) in small space, and tight on resources.
 License
 =======
 (c) 2011 by gatopeich, licensed under a Creative Commons Attribution 3.0 Unported License:  
-http://creativecommons.org/licenses/by/3.0/
+http://creativecommons.org/licenses/by/3.0/  
 Briefly: Use it however suits you better and just give me due credit.
 
 
