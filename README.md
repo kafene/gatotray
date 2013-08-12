@@ -65,9 +65,9 @@ So gatotray v2.0 eats roughly less than 6 bogomips in its several configurations
 , transparency costing ~10% additional CPU, and running the 32 bit version
 saving a bit under 1kB RSS memory.
 
-
-***
 Script "watchRSS" used to track memory and CPU usage in a simple way follows:
+
+```bash
 #!/bin/bash
 $* &
 pid=$!
@@ -76,3 +76,4 @@ while watch="`ps -o bsdtime $pid` `grep RSS /proc/$pid/status`"; do
 	old="$watch"
 	sleep .1
 done
+```
