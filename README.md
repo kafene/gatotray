@@ -10,8 +10,8 @@ temperature, frequency) in small space, and tight on resources.
 
 License
 =======
-(c) 2011 by gatopeich, licensed under a Creative Commons Attribution 3.0
-Unported License: http://creativecommons.org/licenses/by/3.0/
+(c) 2011 by gatopeich, licensed under a Creative Commons Attribution 3.0 Unported License:  
+http://creativecommons.org/licenses/by/3.0/
 Briefly: Use it however suits you better and just give me due credit.
 
 
@@ -23,8 +23,7 @@ Features
 * Works in almost any Linux desktop, as long as it is Freedesktop compatible:
   XFCE, ~~GNOME~~, GTK+, KDE, LXDE, WM + Tint2, Razor-qt, and more.
 * It uses an innovative logarithmic time scale, providing an intuitive idea of
-  CPU usage in reduced space. It looks good too. Colors vary with frequency and
-  temperature.
+  CPU usage in reduced space. It looks good too. Colors vary with frequency and temperature.
 * When available, temperature is represented in a thermometer, which blinks when too hot.
 * Tooltip shows current stats in text form.
 * On click, it opens a 'top' window with detailed system usage.
@@ -42,7 +41,7 @@ different versions running on:
 - A Core 2 Duo U9400 @ 800 MHz (max=1.4GHz) reporting 2793 bogomips.
 - GTK+ version 2.20.1(-0ubuntu2) (indirect dependencies vary with distro)
 
-After 7 hours this is a pretty version of what we get with the command
+After 7 hours this is a pretty version of what we get with the command  
 `ps -o bsdtime,rss,etime,pid,command -C gatotray|sort -n`.
 
 ```
