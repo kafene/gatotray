@@ -212,6 +212,7 @@ icon_activate(GtkStatusIcon *app_icon, gpointer user_data)
     }
     else
     {
+        /*
         #define BASE_COMMAND "xterm -n 'gatotray: top' -rv -geometry "
         char command[256] = BASE_COMMAND "73x12 top";
         GdkRectangle area;
@@ -230,8 +231,10 @@ icon_activate(GtkStatusIcon *app_icon, gpointer user_data)
                 , BASE_COMMAND "73x12%+d%+d top"
                 , x, y);
         }
+        */
         char **myargv;
-        g_shell_parse_argv(command, NULL, &myargv, NULL);
+        g_message("Spawning command %s", pref_command);
+        g_shell_parse_argv(pref_command, NULL, &myargv, NULL);
         g_spawn_async( NULL, myargv, NULL, G_SPAWN_SEARCH_PATH,
              NULL, NULL, &tops_pid, NULL);
         g_strfreev(myargv);
