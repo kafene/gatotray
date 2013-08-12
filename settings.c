@@ -137,6 +137,7 @@ void pref_save()
 }
 
 GtkWidget *pref_dialog = NULL;
+
 void pref_response(GtkDialog *dialog, gint response_id, gpointer user_data)
 {
     if(GTK_RESPONSE_ACCEPT == response_id) pref_save();
