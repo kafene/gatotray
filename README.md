@@ -2,7 +2,7 @@ Note: This is a fork of
 
 To see the differences from the original, look at:
 
-- a29c214dfa8fb90f00b404cc85ae4b9fbc15d36d
+- kafene/gatotray@a29c214dfa8fb90f00b404cc85ae4b9fbc15d36d
 
 gatotray is a tiny CPU monitor displaying several stats graphically (usage,
 temperature, frequency) in small space, and tight on resources.
