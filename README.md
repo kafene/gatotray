@@ -1,6 +1,10 @@
 Note: This is a fork of [gatotray](http://code.google.com/p/gatotray/)
 
-To see the differences from the original, look at [a29c214](https://github.com/kafene/gatotray/commit/a29c214dfa8fb90f00b404cc85ae4b9fbc15d36d?w=1).
+To see the major differences from the original, take a look at:
+
+https://github.com/kafene/gatotray/compare/2844dc5...1ea5740?w=1
+
+---
 
 gatotray is a tiny CPU monitor displaying several stats graphically (usage,
 temperature, frequency) in small space, and tight on resources.
