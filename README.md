@@ -4,6 +4,8 @@ To see the major differences from the original, take a look at:
 
 https://github.com/kafene/gatotray/compare/2844dc5...1ea5740?w=1
 
+Version 3.0 is now [at BitBucket](https://bitbucket.org/gatopeich/gatotray) from the original maintainer, gatopeich (see [issue #3](https://github.com/kafene/gatotray/issues/3))
+
 ---
 
 gatotray is a tiny CPU monitor displaying several stats graphically (usage,
